@@ -1,0 +1,326 @@
+/*Global Rules*/
+
+*   {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body    {
+    position:relative;
+    overflow-x: hidden;
+    
+}
+
+a   {
+    color:white;
+    text-decoration: none;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    
+}
+
+a:hover    {
+    color:yellow;
+    
+}
+
+.body-container  {
+    width:100%;
+    margin:0 auto;
+    height:auto;
+    position:relative;
+    
+}
+
+.section    {
+    height:auto;
+    width:100%;
+    padding:70px 0px 150px 0px;
+    margin:0 auto;
+    
+}
+
+.container  {
+    height:auto;
+    width:90%;
+    margin:0px auto 10px auto;
+    padding:10px;
+    
+}
+
+.container h1   {
+    text-align:left;
+    float:left;
+    max-width:700px;
+    letter-spacing:2px;
+    font-family:'Josefin Sans', serif;
+    margin:0 auto;
+    color:white;
+    padding:30px 0px 30px 0px;
+    
+}
+
+/*Header Rules*/
+
+.header {
+    height:50px;
+    width:100%;
+    position:relative;
+    text-align: center;
+    background-color:rgba(28,28,28,0.0);
+    z-index:100;
+    top:-20px;
+    min-width:557px
+    
+}
+
+ul  {
+    text-align:center;
+    top:10px;
+    position:relative;
+    margin:0 auto;
+    min-width:430px;
+    
+}
+
+li  {
+    display:inline-block;
+    padding:10px 15px;
+    font-size:12px;
+    letter-spacing:2px;
+    font-family:'Josefin Sans', serif;
+    font-weight:700;
+    margin:0px 10px;
+
+}
+
+/*Body Rules*/
+
+#intro-box  {
+    background-color:black;
+    background:url(pics/header.jpg) fixed;
+    background-position: 0% 100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    min-height:100%;
+    min-width:100%;
+    
+}
+
+.section p  {
+    font-size:14px;
+    font-family:'PT Sans', serif;
+    max-width:700px;
+    text-align:left;
+    margin:0 auto;
+    color:white;
+    padding:30px 0px 30px 0px;
+    
+}
+
+.section h2 {
+    max-width:700px;
+    letter-spacing:2px;
+    font-family:'Josefin Sans', serif;
+    text-align: left;
+    margin:7px auto 0px auto;
+    color:white;
+    padding:30px 0px 0px 0px;
+    font-size:14px;
+    
+}
+
+/*Equipment*/
+
+#equipment-box  {
+    background:rgba(28,28,28,1);
+    background-position:bottom;
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    
+}
+
+.equipment-pic  {
+    background:red;
+    height:300px;
+    width:100%;
+    min-width:300px;
+    max-width:700px;
+    margin:10px auto 0px auto;
+    background-size:cover;
+    background-position:top;
+
+}
+
+#pic-1  {
+    background-image: url(pics/pic-1.jpg);
+    background-size:cover;
+    
+}
+
+#pic-2  {
+    background-image: url(pics/pic-2.jpg);
+    background-size:cover;
+    
+}
+
+#pic-3  {
+    background-image: url(pics/pic-3.jpg);
+    background-size:cover;
+    
+}
+
+#pic-4  {
+    background-image: url(pics/pic-4.jpg);
+    background-size:cover;
+    
+}
+
+#pic-5  {
+    background-image: url(pics/pic-5.jpg);
+    background-size:cover;
+    
+}
+
+#ableton-box    {
+    background-color:black;
+    background:url(pics/headerBW.jpg) fixed;
+    background-position: 0% 100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    min-height:100%;
+    min-width:100%;
+    
+}
+
+#ableton-1    {
+    background-image: url(pics/ableton-1.jpg);
+    background-size:cover;
+    
+}
+
+#ableton-2    {
+    background-image: url(pics/ableton-2.jpg);
+    background-size:cover;
+    background-position:bottom;
+    
+}
+
+#ableton-3    {
+    background-image: url(pics/ableton-3.jpg);
+    background-size:cover;
+    
+}
+
+
+#instrument-box {
+    background:url(pics/headphones.jpg)fixed;
+    background-position:bottom;
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    
+    
+}
+
+#tap-tempo  {
+    background-image: url(pics/tap.jpg);
+    height:200px;
+    max-width:700px;
+    background-position:left;
+    
+}
+
+#note   {
+    font-size:12px;
+    padding:5px;
+    border-top:solid white 2px;
+    border-bottom:solid white 2px;
+    margin:0px auto 0px auto;
+    
+}
+
+#joel   {
+    font-size:12px;
+    font-family:'Josefin Sans', serif;
+    text-align:center;
+    position:relative;
+    top:47px;
+}
+
+/*Footer Rules*/
+
+#footer {
+    padding:0px;
+    height:70px;
+    background-color:rgb(28,28,28);
+    
+}
+
+.footer-list    {
+    top:8px;
+    display:inline-block;
+    position:relative;
+    margin:0px 0px;
+    
+}
+
+.footer-list a  {
+    font-size:10px;
+    
+}
+
+#copyright  {
+    float:right;
+    letter-spacing:5px;
+    font-family:'Josefin Sans', serif;
+    font-size:10px;
+    position:relative;
+    top:8px;
+    padding:10px 15px;
+    margin:0px 10px;
+    
+}
+
+@media screen and (max-width:1340px)    {
+    .container h1   {
+        width:100%;
+        margin:0 auto;
+        max-width: none;
+        text-align: center;
+        
+    }
+    
+    .container  h2  {
+        clear:both;
+        
+    }
+    
+    .footer-list    {     
+        margin:10px auto 0px auto;
+        width:100%;
+        min-width:557px;
+        
+    }
+    
+    #copyright  {
+        width:50%;
+        text-align:center;
+        margin:27px auto 0px auto;
+        float:none;
+        min-width:327px;
+        letter-spacing:10px;
+        
+    }
+    
+    #footer {
+        height:140px;
+    }
+    
+}
